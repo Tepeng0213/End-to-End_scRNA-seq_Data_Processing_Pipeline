@@ -1,76 +1,64 @@
-# Nature Medicine COVID-19 免疫图谱高保真还原工程
-## Project Overview: High-Fidelity Reproduction of the Nature Medicine COVID-19 Immune Atlas
+# High-Fidelity Reproduction of the Nature Medicine COVID-19 Immune Atlas
+
+## 📋 Project Executive Summary
+
+### 1. Scope of Work (What was done?)
+This project developed and executed an **end-to-end single-cell RNA sequencing (scRNA-seq) analysis pipeline** designed to precisely replicate the COVID-19 immune landscape published in *Nature Medicine*. The workflow encompasses the entire analytical spectrum: from raw count matrix loading and industrial-grade quality control (QC) to multi-dimensional dimensionality reduction, automated cell identity annotation, clinical differential mining, and high-order transcriptional kinetics (RNA Velocity) modeling.
+
+### 2. Objectives & Scientific Intent
+* **Scientific Validation**: Independently verify core findings regarding "cytokine storms," NK cell exhaustion, and neutrophil developmental trajectories.
+* **Establishing Bioinformatics Benchmarks**: Demonstrate a high-standard framework for cross-platform collaboration (`R/Seurat` and `Python/Scanpy`).
+* **Reconstructing Biological Dynamics**: Utilize RNA velocity analysis to uncover the evolutionary logic of immune lineages under viral infection.
+
+### 3. Tools & Technical Expertise
+* **Core Tool Stack**: `Scanpy`, `Seurat V5`, `scVelo`, `CellTypist`, `Harmony`, `scVI`, `PyDESeq2`.
+* **Professional Skills**: Multi-omics Data Engineering, Digital Auditing Logic, and Advanced Visual Storytelling (Publication-ready plots).
+
+### 4. Extended Applications & Industrial Value
+* **Industrial Drug Target Discovery**: Identifying novel immunomodulatory targets and validating Mechanisms of Action (MoA).
+* **Clinical Trial Data Auditing**: Providing a verifiable framework for GCP-compliant single-cell research.
+* **Companion Diagnostics (CDx)**: Developing molecular diagnostic panels for predicting severe infection risks.
 
 ---
 
-### 1. 项目简介 (Executive Summary)
-本项目构建并执行了一个**全链路单细胞转录组（scRNA-seq）分析流水线**，旨在精准复刻 《Nature Medicine》 发表的 COVID-19 免疫系统图谱。项目实现了从原始计数矩阵加载、工业级 QC 到转录动力学（RNA Velocity）建模的全过程。这不仅仅是代码的跑通，更是对原刊科学逻辑、数据趋势和临床结论的**像素级对齐与数字化审计**。
+## 🛠 Detailed Analysis Modules
+
+### Module 1: High-Fidelity scRNA-seq Preprocessing & QC
+* **Function**: End-to-end transformation from "raw environment" to "clean data."
+* **Core Purpose**: Eliminating "Garbage In, Garbage Out" (GIGO) by filtering dead cells and removing physical doublets using `Scrublet`.
+* **Key Tools**: `Scanpy`, `AnnData`, `Scrublet`, `Pandas`.
+
+### Module 2: Core Feature Modeling, Atlas Projection & Identity Identification
+* **Function**: Transition from mathematical processing to biological interpretation.
+* **Core Purpose**: Dimensionality reduction (PCA/UMAP) and identifying cluster-specific **Marker Genes**.
+* **Key Tools**: `Scanpy` (pp.normalize_total, tl.leiden, tl.umap, tl.rank_genes_groups).
+
+### Module 3: High-Resolution Cell Identity Identification & Immune Landscape
+* **Function**: Transforming mathematical clusters into explicit biological cell types.
+* **Core Purpose**: Achieving "Biological Semantic Mapping" and uncovering deep heterogeneity via sub-clustering.
+* **Key Tools**: `CellTypist`, `Scanpy`, `Matplotlib/Seaborn`.
+
+### Module 4: Clinical Differential Mining & Biological Functional Interpretation
+* **Function**: Identifying disease drivers through DEG analysis and pathway enrichment.
+* **Core Purpose**: Decoding biological pathways (e.g., Cytokine Storms) using GSEA/GO/KEGG.
+* **Key Tools**: `GSEApy`, `Enrichr`, `Scanpy`.
+
+### Module 5: Lineage-Specific Deep-Diving & Clinical Correlation
+* **Function**: High-resolution "secondary analysis" of specific lineages and correlation with clinical metrics.
+* **Core Purpose**: Utilizing **Pseudobulk** analysis to link molecular expression with clinical phenotypes (CRP, LDH, Viral Load).
+* **Key Tools**: `pydeseq2`, `Decoupler`, `Pingouin`, `Harmony`.
+
+### Module 6: Multi-Dimensional Validation & Clinical Digital Audit
+* **Function**: Rigorous identity validation and mathematical mapping of clinical indicators.
+* **Core Purpose**: Replicating core figures (e.g., Fig 3d) through "Manual Mean Calibration" to eliminate algorithmic noise.
+* **Key Tools**: `Seurat V5`, `ggplot2`, `ComplexHeatmap`.
+
+### Module 7: Developmental Trajectory Inference & Transcriptional Kinetics
+* **Function**: Revealing cellular evolutionary trends across the temporal dimension.
+* **Core Purpose**: Decoding the "Arrow of Time" using **RNA Velocity** to predict future cell states.
+* **Key Tools**: `scVelo`, `scipy.io`.
 
 ---
 
-### 2. 目的与科学意图 (Purpose & Intent)
-* **科学结论验证**：通过独立代码实现，验证原刊中关于“免疫风暴”、NK 细胞耗竭及中性粒细胞发育轨迹的核心科学发现。
-* **建立高标准生信基准**：展示如何通过跨平台（R/Seurat 与 Python/Scanpy）协作，解决批次效应和算法偏差。
-* **重构生物学动态过程**：利用 RNA 速率分析，探索病毒感染下免疫谱系的演变逻辑。
-
----
-
-### 3. 技术栈与专业技能 (Tools & Skills)
-
-#### **核心工具库 (Tool Stack)**
-* **计算框架**：`Scanpy` (Python), `Seurat V5` (R)
-* **动力学建模**：`scVelo` (RNA Velocity)
-* **自动化标注**：`CellTypist`
-* **批次效应处理**：`Harmony`, `scVI`
-* **统计学引擎**：`PyDESeq2`, `SciPy`, `Pingouin`
-
-#### **关键专业技能 (Expertise)**
-* **多组学数据工程**：跨语言环境（R/Python）数据对象转换（`.h5ad` ↔ `.rds`）。
-* **数字化审计逻辑**：通过手动均值校准和隐含背景扣除，确保计算指标的统计严谨性。
-* **科研级可视化**：绘制符合顶刊要求的复杂热图、流线图、火山图及临床关联矩阵。
-
----
-
-### 4. 详细分析模块 (Detailed Modules)
-
-#### **模块一：高保真数据预处理与质量门控**
-* **功能**：实现从“原始数据”到“干净数据”的转化。
-* **核心**：消除“垃圾进，垃圾出”(GIGO)，通过严格阈值剔除死细胞、空泡，并利用 `Scrublet` 清除多倍体。
-* **价值**：确保数据纯净度，建立可追溯的分析审计标准。
-
-#### **模块二：核心特征建模与图谱投影**
-* **功能**：标准化、对数转换、HVG 筛选及 PCA 去噪。
-* **核心**：利用流形学习构建邻面图，通过 UMAP 降维将复杂转录组结构变得“肉眼可见”。
-* **价值**：实现从数学聚类向生物学定义的关键跨越。
-
-#### **模块三：高分辨率细胞身份鉴定与免疫格局分析**
-* **功能**：二次分群（Sub-clustering）与精准亚群鉴定。
-* **核心**：识别被常规聚类掩盖的稀有致病亚群，执行细胞比例定量分析。
-* **价值**：构建免疫参考图谱，寻找与疾病进展相关的关键特征。
-
-#### **模块四：临床差异化挖掘与生物学功能解析**
-* **功能**：跨组别 DEG 分析及通路富集（GSEA/GO/KEGG）。
-* **核心**：锁定导致免疫风暴的关键致病基因，解析底层生物学通路。
-* **价值**：产出支撑科研论文核心论点的火山图与功能分析数据。
-
-#### **模块五：谱系深挖与临床指标关联分析**
-* **功能**：基于供体水平的 Pseudobulk 差异分析及临床关联回归。
-* **核心**：将分子表达与临床表型（CRP, 病毒载量等）联系，建立因果关联桥梁。
-* **价值**：提升统计稳健性，为伴随诊断（CDx）提供依据。
-
-#### **模块六：多维生物学验证与数字化审计**
-* **功能**：基于标记基因（CD38, MPO 等）的身份校验及评分校准。
-* **核心**：通过“手动均值法”消除算法随机误差，复刻原刊 Figure 3d 等核心图表。
-* **价值**：作为数据真实性校验的标准操作程序（SOP）。
-
-#### **模块七：发育轨迹推断与转录动力学建模**
-* **功能**：基于 RNA 速率（RNA Velocity）计算细胞“速度矢量”。
-* **核心**：预测细胞“将变成什么”，揭示免疫细胞在感染过程中的演变时间轴。
-* **价值**：挖掘新型治疗靶点，追踪肿瘤或免疫系统的演化轨迹。
-
----
-
-### 5. 工业价值 (Industrial Value)
-1.  **药物靶点筛选**：锁定疾病特异性高表达受体，为抗体药物研发提供靶标。
-2.  **临床数据审计**：提供全链路可追溯的生信分析框架，符合监管部门对数据真实性的要求。
-3.  **精准医疗支持**：通过细胞状态评分，为临床医生提供针对性免疫调节治疗的决策支持。
+## 📄 License
+This project is licensed under the **MIT License** (or **Apache License 2.0**) - see the [LICENSE](LICENSE) file for details.
