@@ -74,13 +74,27 @@ This module represents the critical transition in single-cell analysis from "mat
 * **Automated Annotation**: Feature vectors as inputs for ML-based automated cell-type classifiers.
 
 
-  [![View full image](End-to-End_scRNA-seq_Data_Processing_Pipeline/results/figures/Step3_UMAP_Bright_HighRes.png)](End-to-End_scRNA-seq_Data_Processing_Pipeline/results/figures/Step3_UMAP_Bright_HighRes.png)
-  [![View full image](End-to-End_scRNA-seq_Data_Processing_Pipeline/results/figures/Step4_Heatmap_HighRes_EqualWidth.png)](End-to-End_scRNA-seq_Data_Processing_Pipeline/results/figures/Step4_Heatmap_HighRes_EqualWidth.png)
-  [![View full image](End-to-End_scRNA-seq_Data_Processing_Pipeline/results/figures/Step3_UMAP_Bright_HighRes.png)](End-to-End_scRNA-seq_Data_Processing_Pipeline/results/figures/Step3_UMAP_Bright_HighRes.png)
-  [![View full image](End-to-End_scRNA-seq_Data_Processing_Pipeline/results/figures/Step4.2_Dynamic_DotPlot_Full.png)](End-to-End_scRNA-seq_Data_Processing_Pipeline/results/figures/Step4.2_Dynamic_DotPlot_Full.png)
-  [![View full image](End-to-End_scRNA-seq_Data_Processing_Pipeline/results/figures/Step5_Candy_Clean_UMAP.png)](End-to-End_scRNA-seq_Data_Processing_Pipeline/results/figures/Step5_Candy_Clean_UMAP.png)
-  [![View full image](End-to-End_scRNA-seq_Data_Processing_Pipeline/results/figures/Step6_Proportions_Candy_Morandi.png)](End-to-End_scRNA-seq_Data_Processing_Pipeline/results/figures/Step6_Proportions_Candy_Morandi.png)
-  <a href="End-to-End_scRNA-seq_Data_Processing_Pipeline/results/figures/Step6_Proportions_Candy_Morandi.png">
+<a href="End-to-End_scRNA-seq_Data_Processing_Pipeline/results/figures/Step3_UMAP_Bright_HighRes.png">
+  <img src="End-to-End_scRNA-seq_Data_Processing_Pipeline/results/figures/Step3_UMAP_Bright_HighRes.png" width="400">
+</a>
+
+<a href="End-to-End_scRNA-seq_Data_Processing_Pipeline/results/figures/Step4_Heatmap_HighRes_EqualWidth.png">
+  <img src="End-to-End_scRNA-seq_Data_Processing_Pipeline/results/figures/Step4_Heatmap_HighRes_EqualWidth.png" width="400">
+</a>
+
+<a href="End-to-End_scRNA-seq_Data_Processing_Pipeline/results/figures/Step3_UMAP_Bright_HighRes.png">
+  <img src="End-to-End_scRNA-seq_Data_Processing_Pipeline/results/figures/Step3_UMAP_Bright_HighRes.png" width="400">
+</a>
+
+<a href="End-to-End_scRNA-seq_Data_Processing_Pipeline/results/figures/Step4.2_Dynamic_DotPlot_Full.png">
+  <img src="End-to-End_scRNA-seq_Data_Processing_Pipeline/results/figures/Step4.2_Dynamic_DotPlot_Full.png" width="400">
+</a>
+
+<a href="End-to-End_scRNA-seq_Data_Processing_Pipeline/results/figures/Step5_Candy_Clean_UMAP.png">
+  <img src="End-to-End_scRNA-seq_Data_Processing_Pipeline/results/figures/Step5_Candy_Clean_UMAP.png" width="400">
+</a>
+
+<a href="End-to-End_scRNA-seq_Data_Processing_Pipeline/results/figures/Step6_Proportions_Candy_Morandi.png">
   <img src="End-to-End_scRNA-seq_Data_Processing_Pipeline/results/figures/Step6_Proportions_Candy_Morandi.png" width="400">
 </a>
 ---
