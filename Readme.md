@@ -82,10 +82,6 @@ This module represents the critical transition in single-cell analysis from "mat
   <img src="End-to-End_scRNA-seq_Data_Processing_Pipeline/results/figures/Step4_Heatmap_HighRes_EqualWidth.png" width="400">
 </a>
 
-<a href="End-to-End_scRNA-seq_Data_Processing_Pipeline/results/figures/Step3_UMAP_Bright_HighRes.png">
-  <img src="End-to-End_scRNA-seq_Data_Processing_Pipeline/results/figures/Step3_UMAP_Bright_HighRes.png" width="400">
-</a>
-
 <a href="End-to-End_scRNA-seq_Data_Processing_Pipeline/results/figures/Step4.2_Dynamic_DotPlot_Full.png">
   <img src="End-to-End_scRNA-seq_Data_Processing_Pipeline/results/figures/Step4.2_Dynamic_DotPlot_Full.png" width="400">
 </a>
@@ -118,8 +114,13 @@ This module transforms mathematical clusters into cell types with explicit biolo
 * **Targeting Pathogenic Cells**: Identifying subpopulations affected by drugs to validate Mechanism of Action (MoA).
 * **Standardized Deliverables**: Standardized building blocks for downstream Cell-Cell Communication or SCENIC analysis.
 
-  [![View full image](End-to-End_scRNA-seq_Data_Processing_Pipeline/results/figures/step7.2_Figure_2b_Remodeled_HD.png)](End-to-End_scRNA-seq_Data_Processing_Pipeline/results/figures/step7.2_Figure_2b_Remodeled_HD.png)
-  [![View full image](End-to-End_scRNA-seq_Data_Processing_Pipeline/results/figures/Step7.3_v5_Compatible.png)](End-to-End_scRNA-seq_Data_Processing_Pipeline/results/figures/Step7.3_v5_Compatible.png)
+<a href="End-to-End_scRNA-seq_Data_Processing_Pipeline/results/figures/step7.2_Figure_2b_Remodeled_HD.png">
+  <img src="End-to-End_scRNA-seq_Data_Processing_Pipeline/results/figures/step7.2_Figure_2b_Remodeled_HD.png" width="400">
+</a>
+
+<a href="End-to-End_scRNA-seq_Data_Processing_Pipeline/results/figures/Step7.3_v5_Compatible.png">
+  <img src="End-to-End_scRNA-seq_Data_Processing_Pipeline/results/figures/Step7.3_v5_Compatible.png" width="400">
+</a>
 
 ---
 
@@ -142,9 +143,17 @@ The core transition from "phenotypic description" to "mechanistic discovery." It
 * **Mechanism of Action (MoA) Studies**: Elucidating how drugs modulate specific immune paths for pre-clinical validation.
 * **Knowledge Base Integration**: Interfacing with MSigDB or Reactome for proprietary enterprise-level signature libraries.
 
-  [![View full image](End-to-End_scRNA-seq_Data_Processing_Pipeline/results/figures/step8.3_Final_Polished.png)](End-to-End_scRNA-seq_Data_Processing_Pipeline/results/figures/step8.3_Final_Polished.png)
-  [![View full image](End-to-End_scRNA-seq_Data_Processing_Pipeline/results/figures/step9.4_Figure_2g_GitHub_Ready.png)](End-to-End_scRNA-seq_Data_Processing_Pipeline/results/figures/step9.4_Figure_2g_GitHub_Ready.png)
-  [![View full image](End-to-End_scRNA-seq_Data_Processing_Pipeline/results/figures/step10_Regulators.png)](End-to-End_scRNA-seq_Data_Processing_Pipeline/results/figures/step10_Regulators.png)
+<a href="End-to-End_scRNA-seq_Data_Processing_Pipeline/results/figures/step8.3_Final_Polished.png">
+  <img src="End-to-End_scRNA-seq_Data_Processing_Pipeline/results/figures/step8.3_Final_Polished.png" width="400">
+</a>
+
+<a href="End-to-End_scRNA-seq_Data_Processing_Pipeline/results/figures/step9.4_Figure_2g_GitHub_Ready.png">
+  <img src="End-to-End_scRNA-seq_Data_Processing_Pipeline/results/figures/step9.4_Figure_2g_GitHub_Ready.png" width="400">
+</a>
+
+<a href="End-to-End_scRNA-seq_Data_Processing_Pipeline/results/figures/step10_Regulators.png">
+  <img src="End-to-End_scRNA-seq_Data_Processing_Pipeline/results/figures/step10_Regulators.png" width="400">
+</a>
 
 ---
 
@@ -167,10 +176,21 @@ High-resolution "secondary analysis" of specific lineages. It covers physical se
 * **Refined MoA Validation**: Determining if a drug broadly affects cells or specifically reverses a pathogenic subpopulation.
 * **Clinical Cohort Integration**: Standard pipeline for auditing data from multi-center clinical trials.
 
-  [![View full image](End-to-End_scRNA-seq_Data_Processing_Pipeline/results/figures/step11_Ultimate_Final.png)](End-to-End_scRNA-seq_Data_Processing_Pipeline/results/figures/step11_Ultimate_Final.png)
-  [![View full image](End-to-End_scRNA-seq_Data_Processing_Pipeline/results/figures/step12_DotPlot_HLA_ULTIMATE_CherryRed.png)](End-to-End_scRNA-seq_Data_Processing_Pipeline/results/step12_DotPlot_HLA_ULTIMATE_CherryRed.png)
-  [![View full image](End-to-End_scRNA-seq_Data_Processing_Pipeline/results/figures/step13__ISG_Module_Score_Fixed.png)](End-to-End_scRNA-seq_Data_Processing_Pipeline/results/step13__ISG_Module_Score_Fixed.png)
-  [![View full image](End-to-End_scRNA-seq_Data_Processing_Pipeline/results/figures/step14_ISG_Correlation.png)](End-to-End_scRNA-seq_Data_Processing_Pipeline/results/step14_ISG_Correlation.png)
+<a href="End-to-End_scRNA-seq_Data_Processing_Pipeline/results/figures/step11_Ultimate_Final.png">
+  <img src="End-to-End_scRNA-seq_Data_Processing_Pipeline/results/figures/step11_Ultimate_Final.png" width="400">
+</a>
+
+<a href="End-to-End_scRNA-seq_Data_Processing_Pipeline/results/step12_DotPlot_HLA_ULTIMATE_CherryRed.png">
+  <img src="End-to-End_scRNA-seq_Data_Processing_Pipeline/results/figures/step12_DotPlot_HLA_ULTIMATE_CherryRed.png" width="400">
+</a>
+
+<a href="End-to-End_scRNA-seq_Data_Processing_Pipeline/results/step13__ISG_Module_Score_Fixed.png">
+  <img src="End-to-End_scRNA-seq_Data_Processing_Pipeline/results/figures/step13__ISG_Module_Score_Fixed.png" width="400">
+</a>
+
+<a href="End-to-End_scRNA-seq_Data_Processing_Pipeline/results/figures/step14_ISG_Correlation.png">
+  <img src="End-to-End_scRNA-seq_Data_Processing_Pipeline/results/figures/step14_ISG_Correlation.png" width="400">
+</a>
 ---
 
 ### Module 6: Multi-Dimensional Validation, State Refinement & Clinical Audit
@@ -192,9 +212,17 @@ Rigorous biological "identity validation" and "mathematical mapping" of clinical
 * **Large-Scale Atlas Index Calibration**: Visualization strategies for building enterprise-grade Immune Atlases.
 * **Personalized Decision Support**: Providing a quantitative basis for targeted immunomodulatory treatment decisions.
 
-  [![View full image](End-to-End_scRNA-seq_Data_Processing_Pipeline/results/figures/step15.3_FeaturePlots_Optimized.png)](End-to-End_scRNA-seq_Data_Processing_Pipeline/results/step15.3_FeaturePlots_Optimized.png)
-  [![View full image](End-to-End_scRNA-seq_Data_Processing_Pipeline/results/figures/step16_UMAP_Highlights.png)](End-to-End_scRNA-seq_Data_Processing_Pipeline/results/step16_UMAP_Highlights.png)
-  [![View full image](End-to-End_scRNA-seq_Data_Processing_Pipeline/results/figures/step17.3.png)](End-to-End_scRNA-seq_Data_Processing_Pipeline/results/step17.3.png)
+<a href="End-to-End_scRNA-seq_Data_Processing_Pipeline/results/step15.3_FeaturePlots_Optimized.png">
+  <img src="End-to-End_scRNA-seq_Data_Processing_Pipeline/results/figures/step15.3_FeaturePlots_Optimized.png" width="400">
+</a>
+
+<a href="End-to-End_scRNA-seq_Data_Processing_Pipeline/results/step16_UMAP_Highlights.png">
+  <img src="End-to-End_scRNA-seq_Data_Processing_Pipeline/results/figures/step16_UMAP_Highlights.png" width="400">
+</a>
+
+<a href="End-to-End_scRNA-seq_Data_Processing_Pipeline/results/step17.3.png">
+  <img src="End-to-End_scRNA-seq_Data_Processing_Pipeline/results/figures/step17.3.png" width="400">
+</a>
 
 ---
 
@@ -217,6 +245,14 @@ Revealing cellular evolutionary trends across the temporal dimension. It encompa
 * **Identifying Early Switch Genes**: Finding targets activated early in differentiation with high pharmacological value.
 * **Tumor Evolution Tracking**: Inferring dynamic trajectories from sensitive to drug-resistant states in oncology.
 
-  [![View full image](End-to-End_scRNA-seq_Data_Processing_Pipeline/results/figures/Step19.1_Target_Subset_Genes.png)](End-to-End_scRNA-seq_Data_Processing_Pipeline/results/Step19.1_Target_Subset_Genes.png)
-  [![View full image](End-to-End_scRNA-seq_Data_Processing_Pipeline/results/figures/step19.6_Final.png)](End-to-End_scRNA-seq_Data_Processing_Pipeline/results/step19.6_Final.png)
-  [![View full image](End-to-End_scRNA-seq_Data_Processing_Pipeline/results/figures/step19.7_Fig4c_Ultimate.png)](End-to-End_scRNA-seq_Data_Processing_Pipeline/results/step19.7_Fig4c_Ultimate.png)
+<a href="End-to-End_scRNA-seq_Data_Processing_Pipeline/results/Step19.1_Target_Subset_Genes.png">
+  <img src="End-to-End_scRNA-seq_Data_Processing_Pipeline/results/figures/Step19.1_Target_Subset_Genes.png" width="400">
+</a>
+
+<a href="End-to-End_scRNA-seq_Data_Processing_Pipeline/results/step19.6_Final.png">
+  <img src="End-to-End_scRNA-seq_Data_Processing_Pipeline/results/figures/step19.6_Final.png" width="400">
+</a>
+
+<a href="End-to-End_scRNA-seq_Data_Processing_Pipeline/results/step19.7_Fig4c_Ultimate.png">
+  <img src="End-to-End_scRNA-seq_Data_Processing_Pipeline/results/figures/step19.7_Fig4c_Ultimate.png" width="400">
+</a>
