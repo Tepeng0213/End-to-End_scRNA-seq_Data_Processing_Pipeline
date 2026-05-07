@@ -80,6 +80,9 @@ This module represents the critical transition in single-cell analysis from "mat
   [![View full image](End-to-End_scRNA-seq_Data_Processing_Pipeline/results/figures/Step4.2_Dynamic_DotPlot_Full.png)](End-to-End_scRNA-seq_Data_Processing_Pipeline/results/figures/Step4.2_Dynamic_DotPlot_Full.png)
   [![View full image](End-to-End_scRNA-seq_Data_Processing_Pipeline/results/figures/Step5_Candy_Clean_UMAP.png)](End-to-End_scRNA-seq_Data_Processing_Pipeline/results/figures/Step5_Candy_Clean_UMAP.png)
   [![View full image](End-to-End_scRNA-seq_Data_Processing_Pipeline/results/figures/Step6_Proportions_Candy_Morandi.png)](End-to-End_scRNA-seq_Data_Processing_Pipeline/results/figures/Step6_Proportions_Candy_Morandi.png)
+  <a href="End-to-End_scRNA-seq_Data_Processing_Pipeline/results/figures/Step6_Proportions_Candy_Morandi.png">
+  <img src="End-to-End_scRNA-seq_Data_Processing_Pipeline/results/figures/Step6_Proportions_Candy_Morandi.png" width="400">
+</a>
 ---
 
 ### Module 3: High-Resolution Cell Identity Identification & Immune Landscape
